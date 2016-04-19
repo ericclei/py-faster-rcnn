@@ -18,8 +18,8 @@ CLASSES = ('__background__',
 K = 10
 BATCH = K+1
 NMS_THRESH = 0.2
-MODELS_DIR = '/home/ubuntu/py-faster-rcnn/models'
-PARSE_DIR = '/home/ubuntu/py-faster-rcnn/parses/train'
+MODELS_DIR = '../models'
+PARSE_DIR = '../parses/train'
 
 def get_topK_boxes(scores, boxes, K):
     keep_boxes = []
